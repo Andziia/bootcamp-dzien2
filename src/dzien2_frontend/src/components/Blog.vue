@@ -14,7 +14,8 @@ import { dzien2_backend } from 'declarations/dzien2_backend/index';
 export default {
     data() {
         return {
-            wpisy: []
+            wpisy: [],
+            nowyBlog: ""
         }
     },
     methods: {
