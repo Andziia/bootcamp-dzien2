@@ -3,5 +3,5 @@ service : {
     "dodaj_wpis": (text) -> ();
     "odczytaj_wpisy": () -> (vec text) query;
     "usun_wpis": (nat64) -> ();
-    "edytuj": (nat64) -> (text);
+    "edytuj_wpis": (nat64) -> (text);
 }
